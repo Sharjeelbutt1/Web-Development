@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Simple Blog</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>My Simple Blog</h1>
+        <p>Welcome to my personal blog</p>
+
+        <nav>
+            <a href="#">Home</a> |
+            <a href="#">About</a> |
+            <a href="#">Blog</a> |
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+
+        <section>
+            <h2>Latest Blog Posts</h2>
+
+            <article>
+                <h3>Getting Started with HTML</h3>
+                <p><small>Posted on August 8, 2026</small></p>
+                <p>
+                    HTML is the basic building block of web pages.
+                    It is used to structure content on the web.
+                </p>
+                <a href="#">Read More</a>
+            </article>
+
+            <hr>
+
+            <article>
+                <h3>Why I Started Learning Web Development</h3>
+                <p><small>Posted on August 5, 2026</small></p>
+                <p>
+                    Web development is an interesting field where
+                    you can create websites and applications.
+                </p>
+                <a href="#">Read More</a>
+            </article>
+
+            <hr>
+
+            <article>
+                <h3>My Programming Journey</h3>
+                <p><small>Posted on August 1, 2026</small></p>
+                <p>
+                    I started programming with C++ and now I am
+                    exploring HTML and web development.
+                </p>
+                <a href="#">Read More</a>
+            </article>
+
+        </section>
+
+        <aside>
+            <h3>About Me</h3>
+            <p>
+                I am a software engineering student interested
+                in programming and web development.
+            </p>
+
+            <h3>Categories</h3>
+            <ul>
+                <li><a href="#">HTML</a></li>
+                <li><a href="#">C++</a></li>
+                <li><a href="#">Web Development</a></li>
+                <li><a href="#">Programming</a></li>
+            </ul>
+        </aside>
+
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>&copy; 2026 My Simple Blog. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
