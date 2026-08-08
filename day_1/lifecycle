@@ -1,0 +1,65 @@
+┌─────────────────────────┐
+│ 1. Enter URL            │
+│ https://google.com      │
+└────────────┬────────────┘
+             │
+             ▼
+┌─────────────────────────┐
+│ 2. Browser parses URL   │
+│ Protocol: HTTPS         │
+│ Domain: google.com      │
+└────────────┬────────────┘
+             │
+             ▼
+┌─────────────────────────┐
+│ 3. DNS Lookup           │
+│ google.com → IP Address │
+│ e.g. 142.250.x.x        │
+└────────────┬────────────┘
+             │
+             ▼
+┌─────────────────────────┐
+│ 4. Connect to Server    │
+│ TCP connection          │
+│ (usually port 443)      │
+└────────────┬────────────┘
+             │
+             ▼
+┌─────────────────────────┐
+│ 5. TLS Handshake        │
+│ Establish HTTPS security│
+│ + verify certificate    │
+└────────────┬────────────┘
+             │
+             ▼
+┌─────────────────────────┐
+│ 6. HTTP Request         │
+│ GET /                   │
+│ Host: google.com        │
+└────────────┬────────────┘
+             │
+             ▼
+┌─────────────────────────┐
+│ 7. Google Server        │
+│ Processes request       │
+└────────────┬────────────┘
+             │
+             ▼
+┌─────────────────────────┐
+│ 8. HTTP Response        │
+│ HTML + CSS + JS + ...   │
+└────────────┬────────────┘
+             │
+             ▼
+┌─────────────────────────┐
+│ 9. Browser Rendering    │
+│ HTML → DOM              │
+│ CSS  → CSSOM            │
+│ JS   → execution        │
+└────────────┬────────────┘
+             │
+             ▼
+┌─────────────────────────┐
+│ 10. Google Page Appears │
+│       🖥️ Browser        │
+└─────────────────────────┘
